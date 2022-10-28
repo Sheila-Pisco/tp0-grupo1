@@ -121,6 +121,8 @@ main h2{
     background-size: cover;
 }
 
+
+
 @media only screen and (max-width: 992px) {
     .oferta {
         width: 70%;
@@ -134,5 +136,9 @@ main h2{
     main h2{
         font-size: medium;
     }
+
+    /* menu hamburguesa*/
+
+    
 }
 
