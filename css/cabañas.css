@@ -32,13 +32,12 @@ body{
     width: max-content;
     height: fit-content;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 30%;
-    margin-left: 20px;
+    padding: 20%;
 }
 .buscarpor a{
     text-decoration: none;
     color: #334750;
-    font-size: 16px;
+    font-size: small;
 }
 .buscarpor a:hover {
     text-decoration: underline;
@@ -50,19 +49,18 @@ body{
 .ciudades{
     border-top: 1px solid #7cabc2;
     margin-top: 5%;
-    padding-top: 15%;
+    padding-top: 6%;
 }
 .buscarpor p {
     margin-bottom: 2.5%;
 }
 .buscarpor h5 {
-    font-size: 18px;
     margin-bottom: 5%;
 }
 
 .collapsible {
     color: #334750;
-    font-size: 16px;
+    font-size: smaller;
     cursor: pointer;
     padding: 1%;
     border: none;
@@ -83,7 +81,6 @@ body{
     margin-bottom: 3%;
 }
 .dropdown {
-    
     display: inline-block;
     position: relative;
     margin-left: 5%;
@@ -92,7 +89,6 @@ button {
     padding: 5%;
     width: max-content;
     cursor: pointer;
-    font-size: 16px;
 }
 .dropdown-content {
     animation: fadein 0.5s;
@@ -103,7 +99,7 @@ button {
     overflow:hidden;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background-color: white;
-    font-size: 16px;
+    font-size: small;
 }
 .dropdown:hover .dropdown-content{
     display: block;
@@ -126,7 +122,6 @@ button {
 }
 
 .cabaña{
-    font-size: 18px;
     background-color: #e7e7e7;
     display: flex;
     flex-direction: row-reverse;
@@ -137,7 +132,6 @@ button {
 }
 
 .cabaña h2 {
-    font-size: 22px;
     color: #334750;
 }
 .detalles{
@@ -159,7 +153,7 @@ i{
 
 .cabaña img{
     width: 300px;
-    height: 230px;
+    height: 175px;
     object-fit: cover;
 }
 .imagen {
