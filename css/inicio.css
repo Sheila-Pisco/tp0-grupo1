@@ -135,7 +135,6 @@ section.patagonia {
     color: white;
 }
 .provincias a{
-    font-size: 18px;
     text-decoration: none;
     color: white;
 }
@@ -148,44 +147,41 @@ section.patagonia {
     flex-direction: row;
     float: left;
     margin: 75px 75px 20px 0px ;
-    height: 645px;
 }
 .map h4 {
     padding: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     align-items: center;
 }
 .map iframe{
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: auto; 
     border-radius: 0px; 
-    height: 568px;
 }
 
 
 .reserva {
     background-color: #e7e7e7;
-    padding: 40px;
+    padding: 50px;
     width: 61.5%;
-    height: auto;
+    height: 244px;
     margin-top: 75px;
     margin-bottom: 25px;
     align-items: center;
 }
 .publicidad{
     background-color: #e7e7e7;
-    padding: 40px;
+    padding: 50px;
     width: 61.5%;
-    height: auto;
+    height: 244px;
     align-items: center;
 }
 .reserva p,.publicidad p {
     color: #334750;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin: 0%;
-    padding: 0%;
 }
 .reserva h4, .publicidad h4, .map h4{
     color: white;
@@ -193,7 +189,7 @@ section.patagonia {
 }
 .reserva h4, .publicidad h4, .provincias h4, .map h4 {
     padding: 5px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 }
 
